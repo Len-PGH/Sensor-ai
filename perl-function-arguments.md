@@ -1,3 +1,3 @@
-**Name:**`query`
-**Type:**`string`
-**Description:**`what you're asking for`
+* **Name:**`query`
+* **Type:**`string`
+* **Description:**`what you're asking for`
