@@ -1,3 +1,4 @@
+```perl
 use strict;
 use warnings;
 use Plack::Request;
@@ -34,3 +35,4 @@ my $response_text = "The latest temperature is $temperature degrees, and the hum
 $res->body($swml->swaig_response_json({ response => $response_text }));
 
 return $res->finalize;
+```
